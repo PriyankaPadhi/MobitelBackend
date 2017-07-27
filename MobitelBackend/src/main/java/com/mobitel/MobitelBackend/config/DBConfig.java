@@ -108,7 +108,7 @@ public class DBConfig
 	@Bean(name="userDAO")
 	public UserDAO getUserDAO(SessionFactory sessionFactory)
 	{
-		System.out.println("-- CartDAO Object Creation--");
+		System.out.println("-- UserDAO Object Creation--");
 		return new UserDAO(sessionFactory);
 	}
 }

@@ -24,11 +24,11 @@ public class UserTestCase {
 		
 		User user=new User();
 		
-		user.setUsername("rahul");
-		user.setPassword("rahul");
-		user.setCustname("rahul");
-		user.setRole("User");
-		user.setEmail("ppadhi40@gmail.com@gmail.com");
+		user.setUsername("misty");
+		user.setPassword("123");
+		user.setCustname("misty");
+		user.setRole("Admin");
+		user.setEmail("misty@gmail.com");
 		user.setEnabled(true);
 		user.setCustaddress("mumbai");
 
